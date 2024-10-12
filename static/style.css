@@ -1,0 +1,44 @@
+html, body {
+    width:100vw;
+    height:100vh;
+    margin:0;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero {
+    margin-top:25vh;
+}
+
+.content {
+    width:40vw;
+    text-align: center;
+    margin-bottom:20vh;
+}
+
+#play-button {
+    background-color: black;
+    margin-top:2vh;
+    border-radius: 5px;
+    padding:12px;
+    color:white;
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    font-size:20px;
+    width:10vw;
+    border: none;
+    transition-duration: .5s;
+}
+
+#play-button:hover{
+    transform: scale(1.1);
+}
