@@ -6,6 +6,7 @@ html, body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    overflow: hidden;
 }
 
 .container {
@@ -41,4 +42,11 @@ html, body {
 
 #play-button:hover{
     transform: scale(1.1);
+}
+
+
+.invisible-text {
+    visibility: hidden;
+    width:100vw;
+    height:100vh;
 }
