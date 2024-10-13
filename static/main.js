@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
             visibleText.style.transform = 'scale(1)'; 
             visibleText.style.transition = 'transform 0.2s ease'; 
             
-            //translate visible text up
             setTimeout(() => {
+                //translate visible text up
                 visibleText.style.transform = 'translateY(-100%)'
                 visibleText.style.transition = 'transform 0.2s ease';
                 setTimeout(() => {
