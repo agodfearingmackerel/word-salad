@@ -36,3 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 200); 
     });
 });
+
+//when on submit box and enter is clicked, submit
+document.getElementById("guess-box").addEventListener("keyup", function (event) {
+    if (event.key === "Enter") {
+        //placeholder
+        console.log("hiii");
+    }
+});
